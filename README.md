@@ -33,25 +33,28 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
 
 ## Configuração
 
-1. Abrir o [Fast Track Ultra](./software.md#fast-track-ultra):
-   - Este programa é responsável pelo áudio dos microfones frontais;
-   - **IMPORTANTE:** Nunca desligar a peça com o programa aberto! O computador trava e precisa ser reiniciado;
-   - Volumes devem ser regulados na mesa. Mais detalhes, veja [Áudio](./audio.md).
+> Para regulagens de áudio, veja mais detalhes [aqui](./audio.md).
 
-2. Abrir o [OBS Studio](./software.md#obs-studio):
-   - Para ter visibilidade de todas as cenas, abrir o Multiview;
+1. Abrir o [OBS Studio](./software.md#obs-studio):
+   - Para ter visibilidade de todas as cenas, abrir o Multiview...
      - `Mostrar` > `Visualização múltipla (tela inteira)` > `Monitor 2`
-   - Verificar que o sinal das câmeras está chegando;
-   - Verificar que o sinal do projetor está chegando;
-   - Para regulagem avançada de cenas e transmissão, veja [Software - OBS Studio](./software.md#obs-studio).
+   - Se houver um monitor apontando para o palco, você pode clicar com o botão direito na imagem sendo transmitida e...
+     - `Projetor em tela inteira (programa)` > `Monitor 3`
+   - Verificar que o sinal das câmeras está chegando
+   - Verificar que o sinal do projetor está chegando
+   - Para regulagem avançada de cenas e transmissão, veja [Software - OBS Studio](./software.md#obs-studio)
 
-3. Abrir o Google Chrome / YouTube:
+2. Abrir o Google Chrome / YouTube:
+   - A página de transmissão pode ser acessada [aqui](https://studio.youtube.com/channel/UCD9zslKV3jrJb3pslWe32Bw/livestreaming/dashboard)
+   - Se for questionado, clonar a configuração de um culto anterior
    - Verificar agendamento para o dia
-      - Configurar título, horário
+   - Configurar título, horário, imagem
+   - **IMPORTANTE**: O culto deve ser marcado como "Não é para crianças" e em avançado para "Não restringir conteúdo"
+     ![YouTube](imgs/youtube-detalhes-transmissao.png)
 
 ## Iniciando
 
 - No [OBS Studio](./software.md#obs-studio), clicar em em `Iniciar transmissão`;
-- No [YouTube](#), clicar em `Transmitir ao vivo`.
-
-> TODO: adicionar link para o YouTube, tela de transmissão (também no item Configuração : 3)
+  ![Iniciar transmissão](imgs/obs-iniciar-transmissao.png)
+- No [YouTube](https://studio.youtube.com/channel/UCD9zslKV3jrJb3pslWe32Bw/livestreaming/dashboard), clicar em `Transmitir ao vivo`.
+  ![Transmitir ao Vivo](imgs/youtube-transmitir-ao-vivo.png)
