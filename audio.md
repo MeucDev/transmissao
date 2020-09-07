@@ -4,21 +4,14 @@
 
 ## Mesa de som
 
-- TODO:
+A regulagem individual dos instrumentos deve ser feita pelo mesário.
 
-## Microfones
+Em resumo:
 
-- TODO:
-
-## Volumes
-
-### Fast Track Ultra
-
-- TODO:
-
-### OBS Studio
-
-- TODO:
+- O som da mesa é enviado para um canal estéreo de retorno (9/10)
+- O canal é capturado pela FastTrack Ultra que recebe via USB
+- Os canais são considerados como um microfone pelo computador
+- No [OBS Studio](./software.md#obs-studio), esse microfone fica aberto e envia o áudio também para os fones de ouvido
 
 ## Perguntas frequentes
 
@@ -28,11 +21,9 @@ O [OBS Studio](./software.md#obs-studio) está configurado para transmitir uma e
 Por padrão, o computador deve estar configurado para ouvir essa mesma entrada de áudio.  
 Se isso não estiver acontecendo, você pode seguir os seguintes passos:
 
-- Procure por `Sons` no Windows
-- Vá na aba `Gravação`
-- Selecione o microfone de entrada e clique em `Propriedades`
-- Vá para a aba `Ouvir`
-- Ative `Escutar este dispositivo`
-- `Aplicar`
-
-> TODO: Verificar textos em português, adicionar imagens
+- No OBS, vá até o canal de áudio que recebe sinal da mesa de som
+- Clique na engrenagem
+- Selecione "Propriedades de Áudio Avançadas"
+- Certifique-se de que o canal esteja marcado como "Enviar e Receber"
+  > Se já estiver, desmarque e marque novamente
+- Clique em "Aplicar"
