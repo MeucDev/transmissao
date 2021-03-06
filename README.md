@@ -52,7 +52,9 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
    - Verificar que o sinal do projetor está chegando
    - Para regulagem avançada de cenas e transmissão, veja [Software - OBS Studio](./software.md#obs-studio)
 
-3. Abrir o Google Chrome / YouTube:
+3. Abrir o [ATEM Software Control](./software.md#atem-software-control):
+
+4. Abrir o Google Chrome / YouTube:
    - A página de transmissão pode ser acessada [aqui](https://studio.youtube.com/channel/UCD9zslKV3jrJb3pslWe32Bw/livestreaming/dashboard)
    - Se for questionado, clonar a configuração de um culto anterior
    - Verificar agendamento para o dia
