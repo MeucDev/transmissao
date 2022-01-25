@@ -32,7 +32,9 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
 6. Ligar a TV:
    - Abaixo do mezanino existe uma TV virada para o palco que é utilizada como retorno.
 
-7. Equipamentos ligados! É hora de configurar os programas...
+7. Ligar as [luzes do palco](./luzes.md)
+
+8. Equipamentos ligados! É hora de configurar os programas...
 
 ## Configuração
 
