@@ -2,6 +2,8 @@
 
 ![ATEM Mini](./imgs/atem-mini.png)
 
+[Site oficial](https://www.blackmagicdesign.com/br/products/atemmini)
+
 A ATEM Mini é uma mesa de corte de imagem, utilizada nesse momento para a seleção da cenas entre as câmeras e o computador da projeção.  
 Basicamente ela tem várias entradas de vídeo (HDMI) e seleciona uma saída, com possibilidade de configuração e processamento em cima das imagens.
 

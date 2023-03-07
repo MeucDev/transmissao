@@ -4,7 +4,8 @@
 
 ## Mesa de som
 
-A regulagem individual dos instrumentos deve ser feita pelo mesário.
+É recomendado que a regulagem individual dos instrumentos seja feita pelo sonoplasta.  
+Mas é possível utilizar o software [TF Editor](sonoplastia.md#tf-editor) para ajustes.
 
 Em resumo:
 
@@ -29,14 +30,16 @@ Alguns problemas diferentes podem ser as causas. Verifique os itens da lista aba
 2. A saída selecionada no Windows está correta?  
    No canto inferior direito, no símbolo de som, selecione "Fone de Ouvido"  
    ![Áudio Windows](./imgs/audio-windows.jpg)
-3. Abra o OBS somente **após** os passos anteriores estarem corretos.  
+3. A saída de monitorameno no OBS está correta?  
+   Você pode conferir em "Configurações" &gt; "Áudio" &gt; "Avançado" &gt; "Dispositivo de monitoramento". Deve estar selecionada a opção "Padrão"
+4. Abra o OBS somente **após** os passos anteriores estarem corretos. Reinicie o OBS caso já tenha iniciado.  
    O OBS utiliza a saída padrão do Windows para o som de retorno. Acesse qualquer outro áudio para garantir que o fone esteja funcionando (ex. Vídeo no YouTube)
-4. A placa de som está recebendo áudio?  
+5. A placa de som está recebendo áudio?  
    Verifique se a placa externa ao computador está conectada e os leds estão acesos ou piscando conforme a variação do som (verde, ou vermelho quando o volume está muito alto).  
    Se não estiverem, verifique com o sonoplasta para que seja corrigido na mesa de som.
-5. O canal no OBS está ligado e recebendo sinal da mesa?  
+6. O canal no OBS está ligado e recebendo sinal da mesa?  
    Na lista de entradas de áudio, a saída padrão da mesa (identificada na pergunta anterior) não deve estar silenciada e deve ver movimento conforme a variação do som.
-6. Se todos os passos anteriores foram verificados, veja a pergunta: [Como faço para ouvir o que está sendo transmitido?](#como-faço-para-ouvir-o-que-está-sendo-transmitido)
+7. Se todos os passos anteriores foram verificados, veja a pergunta: [Como faço para ouvir o que está sendo transmitido?](#como-faço-para-ouvir-o-que-está-sendo-transmitido)
 
 ### O som está metalizado ou com eco
 
