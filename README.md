@@ -5,7 +5,13 @@ Guia e orientações para a transmissão ao vivo do culto em Blumenau.
 Este guia segue um passo a passo de como executar a transmissão ao vivo de um culto.
 Para ver mais detalhes sobre alguma área da transmissão, veja os guias específicos abaixo:
 
+- [ATEM Mini](./atem-mini.md)
 - [Áudio](./audio.md)
+- [Câmeras](./cameras.md)
+- [Luzes](./luzes.md)
+- [Slides e Projeção](./slides.md)
+- [Softwares](./software.md)
+- [Sonoplastia](./sonoplastia.md)
 
 ## Preparação
 
