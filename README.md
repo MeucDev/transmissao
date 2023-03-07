@@ -16,13 +16,13 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
 ## Preparação
 
 1. Verificar as questões de energia:
-   - Garantir que o No-Break está ligado;
-   - Ligar as duas réguas na mesa que alimentam computador, câmeras e ATEM Mini.
+   - Ligar a régua que alimenta o computador - dentro do móvel;
+   - Conectar a energia na [BlackMagic ATEM Mini](./atem-mini.md).
 
 2. Ligar o hardware de áudio:
    - Hoje existe uma peça responsável por captar o áudio da mesa e dos microfones.
    Para ligá-la, basta apertar o botão que fica atrás na peça;
-   - Para regulagem do som vindo da mesa, veja a seção [Áudio](./audio.md).
+   - Para regulagem do som vindo da mesa, veja a seção [Áudio](./audio.md) e [Sonoplastia](./sonoplastia.md).
 
 3. Ligar a máquina:
    - Ligue o computador;
@@ -30,25 +30,21 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
    - Digite a senha.
 
 4. Ligar as câmeras:
-   - Para ligar as câmeras, basta abrir a lateral e conectar os cabos correspondentes;
+   - Para ligar a câmera PTZ, conecte a fonte, cabo HDMI e cabo de rede;
+   - Para ligar a câmera Sony, basta abrir a lateral e conectar os cabos correspondentes;
    - É interessante verificar se a lentes estão limpas. Você pode usar um pano de tecido ou um pedaço de papel higiênico para limpá-las.
 
-5. Ligar a [BlackMagic ATEM Mini](./atem-mini.md).
+5. Ligar as [luzes do palco](./luzes.md)
 
-6. Ligar a TV:
-   - Abaixo do mezanino existe uma TV virada para o palco que é utilizada como retorno.
-
-7. Ligar as [luzes do palco](./luzes.md)
-
-8. Equipamentos ligados! É hora de configurar os programas...
+6. Equipamentos ligados! É hora de configurar os programas...
 
 ## Configuração
 
 > Para regulagens de áudio, veja mais detalhes [aqui](./audio.md).
 
 1. Seleção de cenas:
-   - Toda a parte de seleção de câmeras e projetor acontece na [ATEM Mini](./atem-mini.md)
-   - Demais cenas são utilizadas somente para vídeos exclusivos da transmissão (que não devem ir para o projetor, por exemplo)
+   - Toda a parte de seleção de câmeras e projetor acontece na [ATEM Mini](./atem-mini.md);
+   - Demais cenas no OBS são utilizadas somente para vídeos de contagem regressiva e fim.
 
 2. Abrir o [OBS Studio](./software.md#obs-studio):
    - Para que o palco veja o que está sendo transmitido, clique com o botão direito sob a imagem sendo enviada (programa):
@@ -60,11 +56,11 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
    - Verificar que o sinal do projetor está chegando
    - Para regulagem avançada de cenas e transmissão, veja [Software - OBS Studio](./software.md#obs-studio)
 
-3. Abrir o [ATEM Software Control](./software.md#atem-software-control):
+3. Abrir o [ATEM Software Control](./software.md#atem-software-control) (opcional)
 
 4. Abrir o Google Chrome / YouTube:
    - A página de transmissão pode ser acessada [aqui](https://studio.youtube.com/channel/UCD9zslKV3jrJb3pslWe32Bw/livestreaming/dashboard)
-   - Se for questionado, clonar a configuração de um culto anterior
+   - Se houver a opção, clonar a configuração de um culto anterior
    - Verificar agendamento para o dia
    - Configurar título, horário, imagem
    - **IMPORTANTE**: O culto deve ser marcado como "Não é para crianças" e em avançado para "Não restringir conteúdo"
@@ -72,7 +68,7 @@ Para ver mais detalhes sobre alguma área da transmissão, veja os guias especí
 
 ## Iniciando
 
-- No [OBS Studio](./software.md#obs-studio), clicar em em `Iniciar transmissão`;
+- No [OBS Studio](./software.md#obs-studio), clicar em em `Iniciar transmissão`;  
   ![Iniciar transmissão](imgs/obs-iniciar-transmissao.png)
   > **IMPORTANTE:** essa etapa já pode ser iniciada minutos antes, pois somente com o próximo passo que a transmissão realmente inicia no YouTube.
 - No [YouTube](https://studio.youtube.com/channel/UCD9zslKV3jrJb3pslWe32Bw/livestreaming/dashboard), clicar em `Transmitir ao vivo`.
