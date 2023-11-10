@@ -11,8 +11,3 @@ Lá você encontra um painel de disjuntores.
 Ligue o disjuntor sinalizado com a marcação "Luz".
 
 ![Canhões de Luz](./imgs/canhoes-de-luz.jpg)
-
-## Outras luzes
-
-Além dos canhões de luz, é recomendado também que as "Redondas palco" estejam ligadas.  
-Para ligá-las use os interruptores próximos à porta de entrada do Hall.

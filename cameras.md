@@ -32,11 +32,4 @@ Essa câmera tem somente conector mini-HDMI, e é conectada à entrada 2 da [ATE
 
 ## Perguntas e problemas frequentes
 
-### Não consigo controlar a câmera PTZ
-
-O software que conecta os botões do StreamDeck com a câmera é o [Companion](./software.md#companion).  
-Se os cabos de rede estiverem todos corretamente conectados, tente fechar o Companion - botão direito no ícone > "Quit" - e abrir novamente.
-
-![Ícone Companion](imgs/companion-icone.png)
-
-![Companion Quit](imgs/companion-quit.png)
+Para resolução de problemas, veja [Problemas e Soluções](./problemas.md#câmeras-e-imagem)
